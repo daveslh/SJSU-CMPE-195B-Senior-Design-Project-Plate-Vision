@@ -173,7 +173,7 @@ See the [open issues](https://github.com/github_username/repo_name/issues) for a
 <!-- LICENSE -->
 ## License
 
-Distributed under the project_license. See `LICENSE.txt` for more information.
+Distributed under the Apache 2.0 License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

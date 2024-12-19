@@ -183,7 +183,7 @@ Distributed under the Apache 2.0 License. See `LICENSE.txt` for more information
 
 David S. Huang - david.sl.huang@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/daveslh/SJSU-CMPE-195B-Senior-Design-Project-Plate-Vision.git](https://github.com/daveslh/SJSU-CMPE-195B-Senior-Design-Project-Plate-Vision.git)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

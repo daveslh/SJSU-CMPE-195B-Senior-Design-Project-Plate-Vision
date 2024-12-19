@@ -217,7 +217,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* The project creators would like to thank Dr. Stas Tiomkin, and Dr. Wencen Wu of SJSU, for their assistance and guidance in the lifecycle of this project.
+The project creators would like to thank Dr. Stas Tiomkin, and Dr. Wencen Wu of SJSU, for their assistance and guidance in the lifecycle of this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

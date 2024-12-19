@@ -192,7 +192,7 @@ Project Link: [https://github.com/daveslh/SJSU-CMPE-195B-Senior-Design-Project-P
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-The project creators would like to thank Dr. Stas Tiomkin, and Dr. Wencen Wu of SJSU for their assistance and guidance in the lifecycle of this project.
+The project creators would like to thank Dr. Stas Tiomkin and Dr. Wencen Wu of SJSU for their assistance and guidance in the lifecycle of this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

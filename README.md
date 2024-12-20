@@ -100,6 +100,7 @@ This project is not meant to be run directly from Github. It is deployed using a
 
 ### Explanation of Project Structure
 
+* `yolov5_license_plate_v13` is the folder containing the trained YOLOv5 model. In the directory, you will find the model weights (`best` and `last`).
 This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh

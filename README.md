@@ -81,7 +81,7 @@ Plate Vision is an innovative parking management system leveraging Raspberry Pi 
 ### Built With
 
 * [![Next][Next.js]][Next-url]
-* [![YOLOv5][YOLO][YOLO-url]]
+* ![YOLOv5][YOLO][YOLO-url]
 * [![React][React.js]][React-url]
 * [![Vue][Vue.js]][Vue-url]
 * [![Angular][Angular.io]][Angular-url]

@@ -96,12 +96,11 @@ Here's a blank template to get started. To avoid retyping too much info, do a se
 
 
 
-<!-- GETTING STARTED -->
 ## Getting Started
 
-This project is meant to be deployed using a hybrid model on a cloud service provider. As such, it is not possible to use directly from this Github repo. However, the full code to the project, as well as the machine learning model artifacts, and the results folder from the training, have all been provided.
+This project is not meant to be run directly from Github. It is deployed using a hybrid model on a cloud service provider. As such, it is not possible for use directly from this Github repo. However, the full code to the project, as well as the machine learning model artifacts and the results folder from the training have all been provided here.
 
-### Prerequisites
+### Explanation of Project Structure
 
 This is an example of how to list things you need to use the software and how to install them.
 * npm

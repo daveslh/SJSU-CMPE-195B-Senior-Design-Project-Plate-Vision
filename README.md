@@ -81,6 +81,7 @@ Plate Vision is an innovative parking management system leveraging Raspberry Pi 
 ### Built With
 
 * [![Next][Next.js]][Next-url]
+* [![YOLOv5][YOLO][YOLO-url]]
 * [![React][React.js]][React-url]
 * [![Vue][Vue.js]][Vue-url]
 * [![Angular][Angular.io]][Angular-url]
@@ -186,6 +187,8 @@ The project creators would like to thank Dr. Stas Tiomkin and Dr. Wencen Wu of S
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
+[YOLO]: https://img.shields.io/badge/YOLOv5-blue
+[YOLO-url]: https://github.com/ultralytics/yolov5
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D

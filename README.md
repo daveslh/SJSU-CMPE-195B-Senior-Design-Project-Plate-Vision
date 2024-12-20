@@ -56,7 +56,7 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#prerequisites">Explanation of Project Structure</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>

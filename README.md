@@ -37,7 +37,7 @@
 <h3 align="center">Plate Vision</h3>
 
   <p align="center">
-    A senior project at San Jose State University utilizing machine vision to build a parking pass system.
+    Fall 2024 Senior Project at San Jose State University utilizing machine vision to build a parking pass system.
   </p>
 </div>
 
@@ -99,8 +99,7 @@ Here's a blank template to get started. To avoid retyping too much info, do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This project is meant to be deployed using a hybrid model on a cloud service provider. As such, it is not possible to use directly from this Github repo. However, the full code to the project, as well as the machine learning model artifacts, and the results folder from the training, have all been provided.
 
 ### Prerequisites
 

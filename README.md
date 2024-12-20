@@ -100,12 +100,15 @@ This project is not meant to be run directly from Github. It is deployed using a
 
 ### Explanation of Project Structure
 
-* `yolov5_license_plate_v13` is the folder containing the trained YOLOv5 model. In the directory, you will find the model weights (`best` and `last`).
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+* `yolov5_license_plate_v13` is the folder containing the trained YOLOv5 model. In the directory, you will find the model weights (`best` and `last`), as well as the options and hyperparameters used in the training in the form of `.yaml` configuration files.
+* `model_directory` represents the directory structure that is deployed along with the SageMaker endpoint. It is packaged with the endpoint when it gets deployed and contains the `inference.py` file which tells the endpoint how to perform its inference. It also contains a `requirements.txt` file listing the required Python packages at runtime.
+* `results` contain the results from training the YOLOv5 model. It contains all the images, `.csv` files, confusion matrix, labels, and other artifacts from the training used to analyze the model.
+* `camera.py` is the script file that is loaded onto the Raspberry Pi Zero 2W to preprocess incoming video streams and upload them onto S3. Variable values have been sanitized.
+* `create_realtime_sagemaker.zip` contains the Lambda script to create the real-time SageMaker endpoint. It is only run once on deployment.
+* `plate-vision.zip` contains the main Lambda function that performs the workflow of the project.
+* `requests_layer.zip` is a layer that is added to the Lambda environment on AWS to allow HTTP requests.
+* `project.v1i.yolov5pytorch.zip` contains the dataset, the class files, the labels, and the training images separated into training, validation, and testing sets.
+
 
 ### Installation
 

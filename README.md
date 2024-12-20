@@ -38,9 +38,6 @@
 
   <p align="center">
     A senior project at San Jose State University utilizing machine vision to build a parking pass system.
-    <br />
-    <br />
-    <br />
   </p>
 </div>
 

@@ -73,7 +73,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`, `project_license`
+Plate Vision is an innovative parking management system leveraging Raspberry Pi and cloud-based machine learning technologies. The system uses a Raspberry Pi Camera Module 2 to stream live video and detect motion, capturing frames when activity is detected. Captured images are uploaded to AWS S3 and processed using a YOLOv5 object detection model deployed on an Amazon SageMaker real-time endpoint. The model identifies license plates, and Google OCR extracts license plate text for validation against a DynamoDB database.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,24 +112,18 @@ This project is not meant to be run directly from Github. It is deployed using a
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
-   ```
+1. create an account on Amazon Web Services
+2. ensure that model artifacts are uploaded onto S3 in a bucket
+3. download, then upload the `create_realtime_sagemaker.zip` file onto the Lambda console
+4. verify successful creation of the endpoint
+5. download, then upload the `plate-vision.zip` file onto the Lambda console
+6. attach roles with adequate permissions onto `plate-vision.zip`
+7. download, then upload the `requests_layter.zip` file onto the Lambda console as a layer. Attach the layer to the Lambda function.
+8. attach HTTP API Gateway to the main Lambda function
+9. create a trigger for the main Lambda function that runs when image gets uploaded onto S3
+10. load `camera.py` file onto the Raspberry Pi Zero 2W
+11. get API key from Google OCR and use API key credentials in Lambda function
+12. set up front end website and ensure that it works with the HTTP API Gateway
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -138,20 +132,8 @@ This project is not meant to be run directly from Github. It is deployed using a
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+With the system built and deployed. User interaction will take place on the front-end website. Project should be live, continuously running, and real-time compatible.
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

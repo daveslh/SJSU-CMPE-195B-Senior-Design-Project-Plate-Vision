@@ -37,7 +37,7 @@
 <h3 align="center">Plate Vision</h3>
 
   <p align="center">
-    project_description
+    A senior project at San Jose State University utilizing machine vision to build a parking pass system.
     <br />
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />

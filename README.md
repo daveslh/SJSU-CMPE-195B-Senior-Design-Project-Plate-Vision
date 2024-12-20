@@ -56,12 +56,11 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Explanation of Project Structure</a></li>
+        <li><a href="#Explanation of Project Structure">Explanation of Project Structure</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -108,6 +107,8 @@ This project is not meant to be run directly from Github. It is deployed using a
 * `plate-vision.zip` contains the main Lambda function that performs the workflow of the project.
 * `requests_layer.zip` is a layer that is added to the Lambda environment on AWS to allow HTTP requests.
 * `project.v1i.yolov5pytorch.zip` contains the dataset, the class files, the labels, and the training images separated into training, validation, and testing sets.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ### Installation
